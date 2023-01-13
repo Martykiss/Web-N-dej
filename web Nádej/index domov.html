@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vesmír a astronomia</title>
+  <link rel="stylesheet" href="flex vesmír.css">
+</head>
+
+<body>
+
+  <section class="showcase">
+    
+    <header>
+      <h2 class="logo"></h2>
+      <div class="toggle "></div>
+    </header>
+   
+    <video src="domov.mp4.mp4" muted loop autoplay></video>
+    
+    <div class="overlay"></div>
+    
+    <div class="text">
+      
+      <h2>Vitajte na stránke Nádej  </h2> 
+      
+      <h3> kde sa dozviete všetko o krestanskej viere.</h3>
+      
+      
+    
+    </div>
+    
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  
+  
+  <div class="menu">
+    <ul>
+      <li><a href="#">Novinky zo sveta </a></li> <br>
+      <li><a href="li class="current><a href="index zaujimavost.html">Zaujimavosti </a></li> <br>
+      <li><a href="li class=" current><a href="index blog.html">Blog Nádej</a></li> <br> 
+      <li><a href="li class="current><a href="index projekty.html">Projekty</a></li> <br>
+      <li><a href="#">Kostoly na Slovensku</a></li> <br>
+      <li><a href="#">Putnické  miesta na Slovensku </a></li> <br>
+      <li><a href="#">Fotogaleria z podujatí</a></li> <br>
+      <li><a href="#">Aktuálne počasie</a></li> <br>
+       
+    </ul>
+  </div>
+
+<script>
+ const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+
+</script>
+
+
+
+</body>
+</html>
